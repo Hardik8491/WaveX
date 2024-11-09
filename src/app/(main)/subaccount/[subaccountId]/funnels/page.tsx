@@ -41,5 +41,5 @@ const FunnelsPageProps: React.FC<FunnelsPageProps> = async ({ params }) => {
 export default FunnelsPageProps;
 
 export const metadata = constructMetadata({
-  title: "Funnels - Plura",
+  title: "Funnels - WaveX",
 });

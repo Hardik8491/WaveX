@@ -189,5 +189,5 @@ const AgencyBillingPage: React.FC<AgencyBillingPageProps> = async ({
 export default AgencyBillingPage;
 
 export const metadata = constructMetadata({
-  title: "Billing - Plura",
+  title: "Billing - WaveX",
 });

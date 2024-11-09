@@ -18,8 +18,8 @@ const Navigation: React.FC<NavigationProps> = async ({}) => {
   return (
     <header className="absolute top-0 left-0 right-0 z-10 p-4 flex items-center justify-between">
       <aside className="flex items-center gap-2">
-        <Image src={logoImage} width={40} height={40} alt="Plura Logo" />
-        <span className="text-xl font-bold z-10">Plura.</span>
+        <Image src={logoImage} width={40} height={40} alt="WaveXg Logo" />
+        <span className="text-xl font-bold z-10">WaveX.</span>
       </aside>
       <nav className="hidden md:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <ul className="flex items-center gap-8">
@@ -27,9 +27,9 @@ const Navigation: React.FC<NavigationProps> = async ({}) => {
             <Link
               className={cn(
                 buttonVariants({ variant: "link" }),
-                "text-inherit p-0 underline-offset-8"
+                "text-inherit p-0 underline-offset-8 "
               )}
-              href="#"
+              href="#pricing"
             >
               Pricing
             </Link>
@@ -40,7 +40,7 @@ const Navigation: React.FC<NavigationProps> = async ({}) => {
                 buttonVariants({ variant: "link" }),
                 "text-inherit p-0 underline-offset-8"
               )}
-              href="#"
+              href="#about"
             >
               About
             </Link>
@@ -51,7 +51,7 @@ const Navigation: React.FC<NavigationProps> = async ({}) => {
                 buttonVariants({ variant: "link" }),
                 "text-inherit p-0 underline-offset-8"
               )}
-              href="#"
+              href="#documents"
             >
               Documentation
             </Link>
@@ -62,7 +62,7 @@ const Navigation: React.FC<NavigationProps> = async ({}) => {
                 buttonVariants({ variant: "link" }),
                 "text-inherit p-0 underline-offset-8"
               )}
-              href="#"
+              href="#features"
             >
               Features
             </Link>

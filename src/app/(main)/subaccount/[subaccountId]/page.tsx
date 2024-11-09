@@ -307,5 +307,5 @@ const SubAccountPageId: React.FC<SubAccountPageIdProps> = async ({
 export default SubAccountPageId;
 
 export const metadata = constructMetadata({
-  title: "Dashboard - Plura",
+  title: "Dashboard - WaveX",
 });

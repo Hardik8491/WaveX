@@ -270,5 +270,5 @@ const AgencyIdPage: React.FC<AgencyIdPageProps> = async ({ params }) => {
 export default AgencyIdPage;
 
 export const metadata = constructMetadata({
-  title: "Dashboard - Plura",
+  title: "Dashboard - WaveX",
 });

@@ -9,5 +9,5 @@ const Page: React.FC = ({}) => {
 export default Page;
 
 export const metadata = constructMetadata({
-  title: "Sign Up - Plura",
+  title: "Sign Up - WaveX",
 });

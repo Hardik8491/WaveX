@@ -22,7 +22,7 @@ const HoverPriceCard: React.FC = ({}) => {
   let [hoveredIndex, setHoveredIndex] = React.useState<number | null>(null);
 
   return (
-    <div className={cn("grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3")}>
+    <div className={cn("grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3")} id="pricing">
       {PRICING.map((price, idx) => (
         <div
           key={idx}

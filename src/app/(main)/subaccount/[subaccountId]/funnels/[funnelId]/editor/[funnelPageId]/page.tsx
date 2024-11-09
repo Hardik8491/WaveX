@@ -60,5 +60,5 @@ const FunnelIdEditorPage: React.FC<FunnelIdEditorPageProps> = async ({
 export default FunnelIdEditorPage;
 
 export const metadata = constructMetadata({
-  title: "Editor - Plura",
+  title: "Editor - WaveX",
 });

@@ -47,5 +47,5 @@ const SubAccountPage: React.FC<SubAccountPageProps> = async ({
 export default SubAccountPage;
 
 export const metadata = constructMetadata({
-  title: "Subaccount - Plura",
+  title: "Subaccount - WaveX",
 });
